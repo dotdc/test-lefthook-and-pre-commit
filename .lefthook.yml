@@ -1,0 +1,14 @@
+# Doc: https://github.com/evilmartians/lefthook
+pre-commit:
+  parallel: true
+  commands:
+    command-1:
+      run: sleep 1
+    command-2:
+      run: sleep 1
+    command-3:
+      run: sleep 1
+    command-4:
+      run: sleep 1
+    command-5:
+      run: sleep 1

@@ -1,0 +1,28 @@
+# Doc: https://pre-commit.com
+repos:
+  - repo: local
+    hooks:
+      - id: command-1
+        name: command-1
+        entry: bash -c "sleep 1"
+        language: system
+
+      - id: command-2
+        name: command-2
+        entry: bash -c "sleep 1"
+        language: system
+
+      - id: command-3
+        name: command-3
+        entry: bash -c "sleep 1"
+        language: system
+
+      - id: command-4
+        name: command-4
+        entry: bash -c "sleep 1"
+        language: system
+
+      - id: command-5
+        name: command-5
+        entry: bash -c "sleep 1"
+        language: system
